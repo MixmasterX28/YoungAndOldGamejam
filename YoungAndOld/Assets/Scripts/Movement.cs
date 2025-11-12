@@ -5,6 +5,8 @@ public class Movement : MonoBehaviour
     [SerializeField] public float WalkSpeed = 5f;
     private Rigidbody2D rb;
 
+    
+
     public KeyCode leftkey = KeyCode.A;
     public KeyCode rightkey = KeyCode.B;
 
@@ -17,6 +19,7 @@ public class Movement : MonoBehaviour
 
     void Update()
     {
+
         moveInput = 0f;
         
         if (Input.GetKey(leftkey))
