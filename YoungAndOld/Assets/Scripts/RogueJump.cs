@@ -1,7 +1,7 @@
 using UnityEditor.ShaderGraph;
 using UnityEngine;
 
-public class RogueDoubleJump : MonoBehaviour
+public class RogueJump : MonoBehaviour
 {
     [SerializeField] Vector2 boxSize;
     [SerializeField] float castDistance;
@@ -32,7 +32,7 @@ public class RogueDoubleJump : MonoBehaviour
         hasDoubleJumped = true;
     }
 
-    bool GroundedCheck()
+    public bool GroundedCheck()
     {
         if (Physics2D.BoxCast(transform.position, boxSize, 0, -transform.up, castDistance, groundLayer))
             return true;
