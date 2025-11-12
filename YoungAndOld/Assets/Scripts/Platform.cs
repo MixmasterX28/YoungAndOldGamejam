@@ -1,7 +1,7 @@
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class PLatform : MonoBehaviour
+public class Platform : MonoBehaviour
 {
 
     [SerializeField] private bool move = true;
@@ -27,7 +27,6 @@ public class PLatform : MonoBehaviour
     private void FixedUpdate()
     {
         timer -= Time.deltaTime;
-        Debug.Log(timer);
 
         if (timer > 0)
         {
