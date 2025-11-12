@@ -11,6 +11,7 @@ public class RogueDash : MonoBehaviour
     [SerializeField] float dashingTime;
     bool isDashing;
     bool hasDashed;
+    public bool DashingIni => isDashing;
 
     private void Start()
     {
