@@ -44,8 +44,6 @@ public class RogueDash : MonoBehaviour
         float originalGravity = rigidbody.gravityScale;
         rigidbody.gravityScale = 0;
         trailRenderer.emitting = true;
-        Debug.Log(transform.localScale.x);
-        Debug.Log(dashingSpeed);
         rigidbody.linearVelocity = new Vector2(transform.localScale.x * dashingSpeed, 0f);
         yield return new WaitForSeconds(dashingTime);
         isDashing = false;

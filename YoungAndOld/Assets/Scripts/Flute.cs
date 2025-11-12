@@ -12,7 +12,7 @@ public class Flute : MonoBehaviour
     public bool note3 { get; private set; } = false;
     public bool note4 { get; private set; } = false;
 
-    [SerializeField] private PLatform behaviour;
+    [SerializeField] private Platform behaviour;
     bool toggle;
 
 
