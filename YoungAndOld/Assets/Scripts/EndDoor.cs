@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EndDoor : MonoBehaviour
 {
@@ -8,7 +9,7 @@ public class EndDoor : MonoBehaviour
     {
         if (playersAtDoor == 2)
         {
-            Debug.Log("winner");
+            SceneManager.LoadScene(2);
         }
     }
 

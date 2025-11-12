@@ -1,4 +1,4 @@
-using UnityEditor.ShaderGraph;
+
 using UnityEngine;
 
 public class RogueJump : MonoBehaviour
@@ -11,7 +11,7 @@ public class RogueJump : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.W))
         {
             Jump();
         }

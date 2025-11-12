@@ -9,11 +9,11 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 35bbc18d99020f94b9e2d4d501cd34ea
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 50dfdbd6af1297040a1f9f3a43581b99
+    path: Assets/Scenes/Shadow Wizard Money Gang.unity
+    guid: 96978f1c5fdb30e43be47906590c41a5
   - enabled: 1
-    path: Assets/Scenes/SettingsTest.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
+    path: Assets/Scenes/WinScreen.unity
+    guid: f9ddcee55e812cf43a455365625a84b2
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

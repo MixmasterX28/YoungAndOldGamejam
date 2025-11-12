@@ -38,7 +38,7 @@ public class Flute : MonoBehaviour
     private void CheckInput()
     {
 
-        if (Input.GetKeyDown(KeyCode.E)) 
+        if (Input.GetKeyDown(KeyCode.K)) 
         {
             if (toggle)
             {
@@ -51,7 +51,7 @@ public class Flute : MonoBehaviour
             note1 = false;
         }
 
-        if (Input.GetKeyUp(KeyCode.R))
+        if (Input.GetKeyUp(KeyCode.L))
         {
             if (!toggle)
             {
@@ -62,24 +62,6 @@ public class Flute : MonoBehaviour
         else
         {
             note2 = false;
-        }
-
-        if (Input.GetKeyUp(KeyCode.T))
-        {
-            note3 = true;
-        }
-        else
-        {
-            note3 = false;
-        }
-
-        if (Input.GetKeyUp(KeyCode.Y))
-        {
-            note4 = true;
-        }
-        else
-        {
-            note4 = false;
         }
     }
 }
